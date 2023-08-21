@@ -27,7 +27,7 @@ function Layout({ main, sidebar }: { main: ReactNode; sidebar: ReactNode }) {
           },
         }}
       >
-        <Box sx={{ padding: 2 }}>{sidebar}</Box>
+        <Box>{sidebar}</Box>
       </Drawer>
     </Box>
   );
